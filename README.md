@@ -1,5 +1,5 @@
 # m3u8-player
-M3U8 Player in browser. Play any live stream m3u8 link with this webapp at https://bharadwajpro.github.io/m3u8-player
+M3U8 Player in browser. Play any live stream m3u8 link with this webapp at https://aungwanakyimal.github.io/myanmartvchannel
 
 I created this website because VLC is unstable in playing live streams. It buffers a lot.
 
