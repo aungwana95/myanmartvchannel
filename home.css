@@ -10,6 +10,10 @@
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
 }
 
+body {
+  background-color: #E6E6FA;
+}
+
 .btn-channel{color:#ffffff;background-color:#2989cc;border-color:#000000;}
 .btn-channel{font-size: 20px;border-radius: 40px 40px 40px 0px;font-weight: normal;font-weight: bold;font-weight: 900;}
 .btn-channel{height: 50px;width: 150px;}
