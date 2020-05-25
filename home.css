@@ -18,3 +18,15 @@ body {
 .btn-channel{font-size: 20px;border-radius: 40px 40px 40px 0px;font-weight: normal;font-weight: bold;font-weight: 900;}
 .btn-channel{height: 50px;width: 150px;}
 .btn-channel{-webkit-text-stroke: 0.3px black; text-shadow: -1px -1px 0 #000;}
+
+var elmnt = document.getElementById("content");
+
+function getFunction() {
+  var x = elmnt.scrollWidth;
+  var y = elmnt.scrollHeight;
+}
+
+function setFunction() {
+  elmnt.style.height = y.scrollHeight + "px";
+  elmnt.style.width = y.scrollWidth + "px";
+} 
