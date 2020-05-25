@@ -16,17 +16,13 @@ body {
 
 .btn-channel{color:#ffffff;background-color:#515253;border-color:#000000;}
 .btn-channel{font-size: 20px;border-radius: 40px 40px 40px 0px;font-weight: normal;font-weight: bold;font-weight: 900;}
-.btn-channel{height: 100px;width: 300px;}
+.btn-channel{height: 500px;width: 300px;}
 .btn-channel{-webkit-text-stroke: 0.3px black; text-shadow: -1px -1px 0 #000;}
 
-var elmnt = document.getElementById("content");
+let scrollHeight = Math.max(
+  document.body.scrollHeight, document.documentElement.scrollHeight,
+  document.body.offsetHeight, document.documentElement.offsetHeight,
+  document.body.clientHeight, document.documentElement.clientHeight
+);
 
-function getFunction() {
-  var x = elmnt.scrollWidth;
-  var y = elmnt.scrollHeight;
-}
-
-function setFunction() {
-  elmnt.style.height = y.scrollHeight + "px";
-  elmnt.style.width = y.scrollWidth + "px";
-} 
+alert('Full document height, with scrolled out part: ' + scrollHeight);
